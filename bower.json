@@ -1,0 +1,31 @@
+{
+  "name": "react-requirejs-gulp-highcharts",
+  "version": "0.0.0",
+  "authors": [
+    "ufukomer <ufukomer@gmail.com>"
+  ],
+  "description": "A sample code to illustrate the usage of React + RequireJS + Gulp + Highgcharts.",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "react",
+    "requirejs",
+    "gulp",
+    "highcharts"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.3",
+    "requirejs": "~2.1.22"
+  }
+}
