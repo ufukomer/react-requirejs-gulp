@@ -10,7 +10,7 @@ gulp.task('default', ['watch']);
 /* Single watch */
 //gulp.watch('src/scss/*.scss', ['sass']);
 
-/* This second parameter is an array of tasks that must be completed before Gulp runs watch. */
+/* This second parameter is an array of tasks that must be completed before Gulp runs the watch task. */
 gulp.task('watch', ['browserSync', 'sass', 'compileComponents', 'compilePages', 'bower', 'html', 'js'], function () {
     gulp.watch('src/scss/**/*.+(scss|sass)', ['sass']);
     gulp.watch('src/js/components/**/*.js', ['compileComponents']);
